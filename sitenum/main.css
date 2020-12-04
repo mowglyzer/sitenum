@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("C:/Users/UNiK/Documents/github/sitenum/sitenum/images/firstbanner.jpg");
+  background-image: url("sitenum/img/firstbanner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url("C:/Users/UNiK/Documents/github/sitenum/sitenum/images/secondbanner.jpg");
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url("sitenum/img/secondbanner.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -485,7 +485,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url("C:/Users/UNiK/Documents/github/sitenum/sitenum/images/firstbanner.jpg");
+    background-image: url("sitenum/img/firstbanner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
