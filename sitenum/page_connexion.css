@@ -1,0 +1,347 @@
+html {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.8;
+    -webkit-text-size-adjust: 100%;
+    color: #29303b;
+    background-color: #f3e9e9fd;
+}
+
+body {
+    font-family: 'Russo One', helvetica neue, helvetica;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    color: #3e416d;
+    text-transform: capitalize;
+}
+
+.page-content {
+    min-height: 80vh;
+    margin-top: 0%;
+    display: block;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.page-content-inner {
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 0;
+    position: relative;
+}
+
+[class*=carré_connexion] {
+    box-sizing: border-box;
+    padding-top: 20%;
+    width: 100%;
+    max-width: 100%;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.content {
+    background: #fff;
+    position: relative;
+    color: #666;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    transition: box-shadow .1s ease-in-out;
+    padding: 20px;
+}
+
+.inner {
+    margin-bottom: 1.5rem!important;
+}
+
+.group_label {
+    color: #3e416d;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+}
+
+label {
+    cursor: default;
+    display: inline-block;
+    margin-bottom: .5rem;
+    padding-top: 10px;
+}
+
+.icons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    height: 30px;
+}
+
+.icons:not(a):not(button):not(input) {
+    pointer-events: none;
+}
+
+i {
+    font-style: italic;
+}
+
+.champs {
+    width: 80%!important;
+    position: relative!important;
+}
+
+.input {
+    max-width: 100%;
+    width: 90%;
+    border: 0 none;
+    padding: 0 16px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #eceff5;
+    border-radius: 7px;
+    transition: .2s ease-in-out;
+    transition-property: color background-color border;
+    height: 41px;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: visible;
+    padding-left: 40px;
+}
+
+button,
+input {
+    overflow: visible;
+    margin: 0%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.oublie {
+    font-size: 0.75rem;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    margin-top: -4px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 2px solid #ccc;
+    transition: .2s ease-in-out;
+    transition-property: background-color, border;
+    border-radius: 6px;
+    background-color: #383a62;
+    border-color: transparent;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.first_button:hover {
+    color: #3e416d;
+}
+
+.end>* {
+    padding-left: -15px;
+}
+
+.group_end {
+    padding-left: 15px;
+}
+
+a {
+    color: rgb(43, 146, 206);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3e416d;
+}
+
+.first_button {
+    display: block;
+    margin-left: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: .9375rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    background-color: #2196f3;
+    border-color: #2196f3;
+    box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .15), 0 1px 1px rgba(0, 0, 0, .075);
+    cursor: pointer;
+}
+
+
+/* Header*/
+
+#header {
+    align-items: center;
+    display: flex;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    background: #111111;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: default;
+    height: 3.25rem;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 3.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10001;
+}
+
+header.special {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+header.special p {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header>.left>.logo {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none;
+}
+
+
+/* Menu */
+
+.right {
+    position: relative;
+    right: 0%;
+    top: 0%;
+    left: -10%;
+    color: #ffffff;
+}
+
+.menu {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.menu .title {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.menu .title:hover {
+    background-color: #111111;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu .sous_menu {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    height: 0;
+    top: 45px;
+    left: -50px;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: transform 1s ease;
+    background-color: #111111;
+    box-shadow: 0px 2px 3px rgba(34, 36, 38, 0.15);
+    border: solid 1px rgba(34, 36, 38, 0.15);
+    border-radius: 0 0 5px 5px;
+}
+
+.menu .title:hover .sous_menu {
+    visibility: visible;
+    height: auto;
+    transform: scaleY(1);
+}
+
+.menu .sous_menu li {
+    padding: 0;
+    display: inline-block;
+    color: #111111;
+    width: 150px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.links {
+    padding-left: 50px;
+}
+
+.menu .sous_menu li a {
+    padding: 0 0 0 5px;
+}
